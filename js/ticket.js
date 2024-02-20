@@ -84,13 +84,13 @@ function selectSeat(seat) {
 
         // Create elements and set content
         var seatElement = document.createElement("p");
-        seatElement.textContent = "Seat " + seat;
+        seatElement.textContent = "" + seat;
 
         var classElement = document.createElement("p");
         classElement.textContent = className;
 
         var priceElement = document.createElement("p");
-        priceElement.textContent = "$" + price;
+        priceElement.textContent = "" + price;
 
         // Get the info container and append the elements
         var infoContainer = document.getElementById("infoContainerEmpty");
